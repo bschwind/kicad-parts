@@ -1,6 +1,7 @@
 (module "LQFN-56_L7.0-W7.0-P0.4-EP" (layer F.Cu) (tedit 62A5CAA8)
   (descr "LQFN-56_L7.0-W7.0-P0.4-EP footprint")
   (tags "LQFN-56_L7.0-W7.0-P0.4-EP footprint")
+  (attr smd)
   (fp_text reference REF** (at 0 -5.550038) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
