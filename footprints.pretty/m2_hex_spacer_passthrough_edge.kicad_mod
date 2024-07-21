@@ -1,22 +1,110 @@
-(footprint "m2_hex_spacer_passthrough_edge" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 3.4 2.65 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e8f00b2e-cebc-4230-aa60-983aba91348f)
-  )
-  (fp_text value "m2_hex_spacer_passthrough_edge" (at 0 4 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f5ed39b0-4150-4f62-bc6e-9f861fb376b8)
-  )
-  (fp_text user "${REFERENCE}" (at 0.1 6.6 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c541b364-19f7-46e1-89b6-d9efeee956f8)
-  )
-  (fp_line (start -2.25 0) (end -2.25 -2.5)
-    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp 5811d46f-5583-4e25-9b47-f3cd7111012f))
-  (fp_line (start 2.25 0) (end 2.25 -2.5)
-    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp bc3d2d7b-33e8-42e5-9f04-cca15560732b))
-  (fp_arc (start 2.25 0) (mid 0 2.25) (end -2.25 0)
-    (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp ffceeda6-2e17-4e3c-9b40-21aa79701ffc))
+(footprint "m2_hex_spacer_passthrough_edge"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.4 2.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8f00b2e-cebc-4230-aa60-983aba91348f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "m2_hex_spacer_passthrough_edge"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5ed39b0-4150-4f62-bc6e-9f861fb376b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06902376-97c0-4814-90a8-76aafc483167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52b63f79-793e-436f-b9f8-eddf5020fdf5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f5af82-05d4-4831-afac-41efc00505cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 0)
+		(end -2.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5811d46f-5583-4e25-9b47-f3cd7111012f")
+	)
+	(fp_line
+		(start 2.25 0)
+		(end 2.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc3d2d7b-33e8-42e5-9f04-cca15560732b")
+	)
+	(fp_arc
+		(start 2.25 0)
+		(mid 0 2.25)
+		(end -2.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ffceeda6-2e17-4e3c-9b40-21aa79701ffc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c541b364-19f7-46e1-89b6-d9efeee956f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 )

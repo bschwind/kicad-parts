@@ -1,22 +1,98 @@
-(footprint "threaded_insert_m3_24939" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f4fa062d-ca0c-4ce7-9d90-35f78f92b101)
-  )
-  (fp_text value "threaded_insert_m3_24939" (at 0 3.9 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 39e5abf4-118e-4c56-a783-cbe273b348c5)
-  )
-  (fp_text user "${REFERENCE}" (at 0 5.4 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f5369a25-6b82-48a5-9b3e-8ccae393e999)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.2) (layers "*.Cu" "*.Mask") (tstamp 43227bce-1594-46cf-84a0-f4917554a529))
-  (model "../3d_models.3dshapes/threaded_insert_m3_24939.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "threaded_insert_m3_24939"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f4fa062d-ca0c-4ce7-9d90-35f78f92b101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "threaded_insert_m3_24939"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "39e5abf4-118e-4c56-a783-cbe273b348c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e8846b8-b5c1-456f-b957-1b7055e8d05c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfac2ca-682c-4569-adea-8522a381a6ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e429220-a99d-49cc-a74d-c0f325921b0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5369a25-6b82-48a5-9b3e-8ccae393e999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43227bce-1594-46cf-84a0-f4917554a529")
+	)
+	(model "../3d_models.3dshapes/threaded_insert_m3_24939.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
